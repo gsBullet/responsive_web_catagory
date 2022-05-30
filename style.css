@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #0e0e0ef6;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* border: 2px solid brown; */
+}
+:root{
+    --fixed_width: 8.33333
+    
+}
+.col-1{
+    width: calc(var(--fixed_width)*1%);
+}
+.col-2{
+    width: calc(var(--fixed_width)*2%);
+}
+.col-3{
+    width: calc(var(--fixed_width)*3%);
+}
+.col-4{
+    width: calc(var(--fixed_width)*4%);
+}
+.col-5{
+    width: calc(var(--fixed_width)*5%);
+}
+.col-6{
+    width: calc(var(--fixed_width)*6%);
+}
+.col-7{
+    width: calc(var(--fixed_width)*7%);
+}
+.col-8{
+    width: calc(var(--fixed_width)*8%);
+}
+.col-9{
+    width: calc(var(--fixed_width)*3%);
+}
+.col-sm-10{
+    width: calc(var(--fixed_width)*10%);
+}
+.col-11{
+    width: calc(var(--fixed_width)*11%);
+}
+.col-12{
+    width: calc(var(--fixed_width)*12%);
+
+}
+
+nav{
+    background-color: #1C1C1C;
+
+}
+
+nav .logo{
+    color: white;
+    display: inline-block;
+    width: calc(var(--fixed_width)*2%);
+    /* border: 1px solid white; */
+    text-align: right;
+    vertical-align: middle;
+}
+nav .logo h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+nav .logo span{
+    color: coral;
+}
+
+nav .navbar{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav .navbar .nav_active{
+    opacity: 1;
+    visibility: visible;
+}
+nav .navbar .toggle_button{
+    display: none;
+}
+nav .navbar{
+    width: calc(var(--fixed_width)*6%);
+    /* border: 1px solid white; */
+    text-align: right;
+}
+nav .navbar ul li{
+    display: inline-block;
+}
+nav .navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-weight: 900;
+}
+nav .communication{
+    display: inline-block;
+    width: calc(var(--fixed_width)*3.8%);
+    /* border: 1px solid white; */
+    vertical-align: middle;
+}
+nav .communication ul{
+    text-align: center;
+}
+nav .communication ul li{
+    display: inline-block;
+    
+}
+nav .communication ul li a i{
+    color: white;
+    font-size: 20px;
+    transform: rotate(-45deg);
+}
+nav .communication ul li span{
+    color: white;
+    font-weight: 900;
+    padding-right: 20px;
+}
+nav .communication ul li button{
+    background-color: coral;
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.main_section{
+    background-color: white;
+    padding: 150px;
+}
+.main_section .contact_header{
+    width:calc(var(--fixed_width)*6%);
+    padding: 20px 0;
+    /* border: 1px solid red; */
+} 
+
+.contact_input .contact_option{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: calc(var(--fixed_width)*2.8%);
+}
+.contact_input .contact_option .address{
+    padding-bottom: 30px;
+}
+.contact_input .contact_option .address a{
+    font-size: 40px;
+    color: coral;
+}
+.contact_input .contact_option .address h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0;
+}
+.contact_input .contact_option .address p{
+    width: calc(var(--fixed_width)*12%);
+    color: gray;
+    font-weight: 800;
+}
+.contact_input .contact_option .phone{
+    padding-bottom: 30px;
+}
+.contact_input .contact_option .phone a{
+    font-size: 40px;
+    color: coral;
+}
+.contact_input .contact_option .phone h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0;
+}
+.contact_input .contact_option .phone p{
+    width: calc(var(--fixed_width)*12%);
+    color: gray;
+    font-weight: 800;
+}
+
+.contact_input .contact_option .email a{
+    font-size: 40px;
+    color: coral;
+}
+.contact_input .contact_option .email h2{
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+.contact_input .contact_option .email p{
+    width: calc(var(--fixed_width)*12%);
+    color: gray;
+    font-weight: 800;
+}
+.contact_input .input_option{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: calc(var(--fixed_width)*9%);
+    vertical-align: top;
+    text-align: left;
+}
+input[type=text]{
+    width: calc(var(--fixed_width)*5.5%);
+    padding: 20px 30px;
+    margin: 15px 0px 15px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+input[type=email],  [type=number]{
+    width: calc(var(--fixed_width)*5.5%);
+    padding: 20px 30px;
+    margin: 15px 0px 15px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+input[type=button]{
+    width: calc(var(--fixed_width)*5%);
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    margin: 15px;
+    border-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+textarea{
+    width: calc(var(--fixed_width)*11.2%);
+    padding: 20px 30px;
+    margin: 15px 0px 15px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+nav .follow_media{
+    color: white;
+    padding-bottom: 25px;
+}
+nav .follow_media .follow_header{
+    width: calc(var(--fixed_width)*3%);
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+}
+nav .follow_media .social_media{
+    display: inline-block;
+    text-align: right;
+    width: calc(var(--fixed_width)*8%);
+}
+nav .follow_media .social_media li{
+    display: inline-block;
+}
+nav .follow_media .social_media li a{
+    color: white;
+    padding: 10px 15px;
+}
+nav .meach_info{
+    padding-left: 100px;
+}
+nav .meach_info .meach_address{
+    color: white;
+    width: calc(var(--fixed_width)*2.5%);
+    text-align: left;
+    display: inline-block;
+}
+nav .meach_info .meach_address span{
+    color: coral;
+}
+nav .meach_info .quick_link{
+    width: calc(var(--fixed_width)*2%);
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    text-transform: capitalize;
+}
+nav .meach_info .quick_link ul{
+    padding-left: 0;
+}
+nav .meach_info .quick_link ul li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+nav .meach_info .quick_link ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+nav .meach_info .news_letter{
+    width: calc(var(--fixed_width)*3%);
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    padding-right: 50px;
+    
+}
+nav .meach_info .news_letter p{
+    font-size: 15px;
+}
+nav .meach_info .news_letter input[type=email]{
+    width: calc(var(--fixed_width)*11%);
+    padding: 15px;
+    border-radius: 0;
+    box-sizing: border-box;
+} 
+nav .meach_info .instagram_img{
+    width: calc(var(--fixed_width)*3%);
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    text-transform: capitalize;
+    padding-left: 50px;
+}
+nav .meach_info .instagram_img .grid{
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+    grid-template-rows: repeat(2,90px);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    
+}
+nav .meach_info .instagram_img .grid img{
+    width: calc(var(--fixed_width)*12%);
+    height: 100%;
+}
+nav .footer{
+    border-top: 1px solid rgba(204, 204, 204, 0.347);
+    padding: 20px;
+}
+nav .footer .f_copyright{
+    
+    width: calc(var(--fixed_width)*7%);
+    display: inline-block;
+    text-align: center;
+}
+nav .footer .f_copyright h4{
+    color: white;
+}
+nav .footer .f_copyright h4 span{
+    color: coral;
+}
+nav .footer .f_navbar{
+    display: inline-block;
+    width: calc(var(--fixed_width)*4%);
+    text-align: right;
+}
+nav .footer .f_navbar li{
+    display: inline-block;
+}
+nav .footer .f_navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
